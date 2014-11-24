@@ -1,4 +1,5 @@
 #js control Asynchronous
+
 ##example1:
 ```js
 var jcaTest = jca();
@@ -22,6 +23,7 @@ jcaTest.all(['f1', 'f2'], function () {
 f1();
 f2();
 ```
+
 ##example2:
 ```js
 (function () {

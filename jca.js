@@ -8,6 +8,7 @@
  * @{Boolean} ignoreErr true-then链将忽略错误继续向下执行 ，false则相反
  * @{Object} that 返回的对象
  */
+
 var jca = function (initArg) {
     var emitSum = 0,
         emitArr = null,
@@ -22,10 +23,10 @@ var jca = function (initArg) {
         var i;
         if (typeof mark !== 'string') {
             throw 'first arg is not string';
-	}
+        }
         if (typeof parseInt(sum, 10) !== 'number') {
             throw 'second arg is not number or not be converted to number';
-	}
+        }
         if (!myCallback instanceof Function) {
             throw 'third arg is not function';
         }
